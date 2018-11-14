@@ -223,4 +223,4 @@ def winning_team
     end
     puts winners
 end
-winning_team
+
