@@ -200,5 +200,6 @@ def most_points_scored
       end
     end
   end
-  player_with_most_points
+  puts player_with_most_points
 end
+most_points_scored
