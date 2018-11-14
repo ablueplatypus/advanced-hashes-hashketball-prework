@@ -232,6 +232,7 @@ def player_with_longest_name
           longest_name = player_names
         end
       end
-      puts longest_name
     end
+    puts longest_name
+end
     player_with_longest_name
