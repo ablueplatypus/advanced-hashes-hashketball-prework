@@ -221,7 +221,7 @@ def winning_team
     else
       winners = game_hash[:away][:team_name]
     end
-    puts winners
+     winners
 end
 
 def player_with_longest_name
@@ -233,7 +233,7 @@ def player_with_longest_name
         end
       end
     end
-    puts longest_name
+     longest_name
 end
 
 def long_name_steals_a_ton
@@ -248,10 +248,8 @@ def long_name_steals_a_ton
      end
    end
    if player_with_longest_name == player_with_most_steals
-     puts true
+      true
    else
-    puts false
+     false
    end
-  puts player_with_most_steals
 end
-long_name_steals_a_ton
