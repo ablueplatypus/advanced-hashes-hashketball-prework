@@ -221,7 +221,6 @@ def winning_team
     else
       winners = game_hash[:away][:team_name]
     end
-     winners
 end
 
 def player_with_longest_name
