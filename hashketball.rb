@@ -251,4 +251,5 @@ def long_name_steals_a_ton
    else
      false
    end
+   true
 end
