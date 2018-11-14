@@ -236,5 +236,7 @@ def player_with_longest_name
     puts longest_name
 end
 
-
-
+def long_name_steals_a_ton
+  most_steals = 0
+   game_hash.each do |location, teams|
+     teams[:players].eachch
