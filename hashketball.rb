@@ -224,3 +224,7 @@ def winning_team
     puts winners
 end
 
+def player_with_longest_name
+  longest_name = ""
+
+  game
