@@ -252,5 +252,6 @@ def long_name_steals_a_ton
    else
     puts false
    end
+  puts player_with_most_steals
 end
 long_name_steals_a_ton
