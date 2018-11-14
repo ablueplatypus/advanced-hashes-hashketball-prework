@@ -206,6 +206,21 @@ end
 def winning_team
   home_team_points = 0
   away_team_points = 0
+  winners = ""
     game_hash.each do |location, team_data|
-      team_data[:players].map do |player_names, stats|
-        if
+      team_data[:players].each do |player_names, stats|
+        if location == :home
+          home_team_points += stats[:points]
+        elsif location == :away
+          away_team_points += stats[:points]
+        end
+      end
+    end
+    if home_team_points > away_team_points
+      winners = game_hash[:home][:team_name]
+    else 
+      winners = game_hash[:away][:team_name]
+    end
+end
+winning_team      
+          
